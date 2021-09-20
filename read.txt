@@ -19,3 +19,5 @@ git commit -a -m "提交信息" 语句作用是将工作区中所有修改过的
 
 git checkout语句 保存到暂存区了 但是还没add的文件的撤销操作
 git reset语句 如果已经add了，就可用git reset来取消暂存区的提交 然后再用git checkout
+
+123
