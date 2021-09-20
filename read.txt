@@ -1,0 +1,7 @@
+﻿hello world!
+
+查看状态的话 用git status！
+显示未跟踪(红色)的话 用git add XXXX 来添加跟踪文件！
+
+git commit语句作用是将位于暂存区的全部文件提交给仓库！
+前提：暂存区已经准备就绪(必须先执行git add语句)
