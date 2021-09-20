@@ -21,3 +21,5 @@ git checkout语句 保存到暂存区了 但是还没add的文件的撤销操作
 git reset语句 如果已经add了，就可用git reset来取消暂存区的提交 然后再用git checkout
 git revert语句 已经add并且commit的文件，先用git log查找到hash值  
 然后再用git revert hash值 的方法来实现撤销的操作！(实际操作中git revert多用)
+
+123
