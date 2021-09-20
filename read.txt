@@ -1,6 +1,6 @@
 ﻿hello world!
 
-查看状态的话 用git status！
+查看状态的话 用git status(显示Git仓库的文件状态)
 显示未跟踪(红色)的话 用git add XXXX 来添加跟踪文件！
 
 git commit语句作用是将位于暂存区的全部文件提交给仓库！
@@ -17,3 +17,5 @@ git commit -a -m "提交信息" 语句作用是将工作区中所有修改过的
 那么只对修改文件进行commit ，新文件不会被commit
 
 
+git checkout语句 保存到暂存区了 但是还没add的文件的撤销操作
+git reset语句 如果已经add了，就可用git reset来取消暂存区的提交 然后再用git checkout
